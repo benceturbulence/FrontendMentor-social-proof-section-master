@@ -16,6 +16,10 @@
 
 }
 
+body {
+    background: url('images/bg-pattern-top-desktop.svg');
+    background: url('images/bg-pattern-bottom-desktop.svg');
+}
 
 .container {
     max-width: 80%;
@@ -139,8 +143,7 @@
         display: flex;
     } 
     .container {
-        border: 1px solid black;
-        max-width: none;
+        max-width: 1300px;
     }
 
     .card__top {
@@ -208,8 +211,6 @@
 
     .card__bottom {
         justify-content: space-between;
-        background-color: aqua;
-        border: 1px solid pink;
         min-height: 400px;
     }
 
